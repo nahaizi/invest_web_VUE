@@ -1,0 +1,47 @@
+.login-form{
+    .input-area{
+        .el-input__inner{
+            height: 45px;
+            line-height: 45px;
+            font-size: 18px;
+            border: 1px solid #CCCCCC;
+            border-radius: 45px;
+        }
+    }
+
+    .el-input__icon{
+        background-position: center;
+        background-size: 22px;
+        background-repeat: no-repeat;
+    }
+    .el-input__icon:after{
+        display: none;
+    }
+    .el-input__prefix{
+        left: 28px;
+    }
+    .el-input--prefix .el-input__inner{
+        padding-left: 68px;
+    }
+
+
+    .el-icon-account{
+        background-image: url(~@assets/imgs/user/icon1.png);
+    }
+    .el-icon-password{
+        background-image: url(~@assets/imgs/user/icon2.png);
+    }
+    .el-icon-img-code{
+        background-size: 21px;
+        background-image: url(~@assets/imgs/user/icon3.png);
+    }
+
+    .is-error{
+        .el-input__inner{
+            border: 1px solid #ff0000;
+        }
+    }
+    .el-form-item__error{
+        display: none;
+    }
+}

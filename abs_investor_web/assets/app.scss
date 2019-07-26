@@ -1,0 +1,40 @@
+/*common*/
+html{
+    font-size: 16px;
+    font-family: "Microsoft YaHei", "微软雅黑", "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", Arial, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+input,
+button,
+select,
+optgroup,
+textarea {
+    font-family: inherit;
+}
+
+.box{
+    box-sizing: border-box;
+}
+.bold{
+    font-weight: bold;
+}
+.pointer{
+    cursor: pointer;
+}
+.width-full{
+    width: 100%;
+}
+.flex-avg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-column{
+    flex-direction: column;
+}
+.f-between{
+    justify-content: space-between;
+}

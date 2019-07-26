@@ -1,0 +1,20 @@
+/* 改变主题色变量 */
+$--color-primary: #2C6952;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '../fonts';
+
+@import "~element-ui/packages/theme-chalk/src/base";
+@import "~element-ui/packages/theme-chalk/src/tabs";
+@import "~element-ui/packages/theme-chalk/src/table";
+@import "~element-ui/packages/theme-chalk/src/input";
+@import "~element-ui/packages/theme-chalk/src/button";
+@import "~element-ui/packages/theme-chalk/src/select";
+@import "~element-ui/packages/theme-chalk/src/notification";
+@import "~element-ui/packages/theme-chalk/src/row";
+@import "~element-ui/packages/theme-chalk/src/col";
+@import "~element-ui/packages/theme-chalk/src/message";
+@import "~element-ui/packages/theme-chalk/src/message-box";
+@import "~element-ui/packages/theme-chalk/src/pagination";
+@import "~element-ui/packages/theme-chalk/src/breadcrumb";
+@import "~element-ui/packages/theme-chalk/src/loading";
